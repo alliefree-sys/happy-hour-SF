@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SF Happy Hour Crawl</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🍸 SF Happy Hour Crawl</h1>
+
+  <div class="controls">
+    <p>Select a day:</p>
+    <button onclick="showDay('Monday')">Monday</button>
+    <button onclick="showDay('Tuesday')">Tuesday</button>
+    <button onclick="showDay('Friday')">Friday</button>
+  </div>
+
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Your JS -->
+  <script src="script.js"></script>
+</body>
+</html>
